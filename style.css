@@ -1,0 +1,42 @@
+body {
+    background-color:hsl(212, 45%, 89%);
+    height: 100vh;
+    
+    display: grid;
+    place-items: center;
+}
+
+p {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
+
+h2 {
+    font-size: 1.3em;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+.container {
+    height: 500px;
+    width: 320px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    font-family: "Outfit", sans-serif;
+    padding: 0px 35px 35px 35px;
+    text-align: center;
+}
+
+img {
+    padding: 15px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 22px;
+}
+
+
